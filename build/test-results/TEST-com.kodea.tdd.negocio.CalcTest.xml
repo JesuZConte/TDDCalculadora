@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodea.tdd.negocio.CalcTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-08-03T17:53:03" hostname="Usuario-PC" time="0.036">
+  <properties/>
+  <testcase name="checkDivision" classname="com.kodea.tdd.negocio.CalcTest" time="0.025"/>
+  <testcase name="checkMultiplicationTwoIntegers" classname="com.kodea.tdd.negocio.CalcTest" time="0.0"/>
+  <testcase name="checkInstance" classname="com.kodea.tdd.negocio.CalcTest" time="0.0"/>
+  <testcase name="checkSubstractTwoIntegers" classname="com.kodea.tdd.negocio.CalcTest" time="0.0"/>
+  <testcase name="checkDividedByZero" classname="com.kodea.tdd.negocio.CalcTest" time="0.0"/>
+  <testcase name="checkAddTwoIntegers" classname="com.kodea.tdd.negocio.CalcTest" time="0.001"/>
+  <testcase name="checkSubstractNegativeIntegers" classname="com.kodea.tdd.negocio.CalcTest" time="0.0"/>
+  <testcase name="checkSubstractNegativePositiveInteger" classname="com.kodea.tdd.negocio.CalcTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

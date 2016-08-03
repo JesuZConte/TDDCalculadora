@@ -17,7 +17,7 @@ public class Principal {
 		
 		do
 		{
-		System.out.println("Por favor, elija operación a realizar: +, -, *, /");
+		System.out.println("Por favor, elija operacion a realizar: +, -, *, /");
 		operacion = scanner.next();
 		if(operacion.trim().equals("+") || operacion.trim().equals("-") || operacion.trim().equals("*") || operacion.trim().equals("/")){
 			continuar = true;
@@ -27,10 +27,10 @@ public class Principal {
 		
 		if(operacion.trim().equals("+") || operacion.trim().equals("-") || operacion.trim().equals("*") || operacion.trim().equals("/"))
 			
-			System.out.println("Por favor, ingrese el primer número");
+			System.out.println("Por favor, ingrese el primer numero");
 			if(scanner.hasNextInt()){
 				numeroUno = scanner.nextInt();
-				System.out.println("Por favor, ingrese el segundo número");
+				System.out.println("Por favor, ingrese el segundo numero");
 				if(scanner.hasNextInt()){
 					numeroDos = scanner.nextInt();
 					
@@ -52,34 +52,11 @@ public class Principal {
 					System.out.println("El resultado es: " + resultado);	
 				}
 				else{
-					System.out.println("El valor ingresado debe ser un número");
+					System.out.println("El valor ingresado debe ser un numero");
 				}
 			}
 			else{
-				System.out.println("El valor ingresado debe ser un número");
-			}
-
-			
-			
-			/*if(operacion.trim().equals("+")){			
-				resultado = calculadora.add(numeroUno, numeroDos);
-			}
-			else if(operacion.trim().equals("-")){
-				resultado = calculadora.substract(numeroUno, numeroDos);
-			}
-			else if(operacion.trim().equals("*")){
-				resultado = calculadora.mult(numeroUno, numeroDos);
-			}
-			System.out.println("El resultado es: " + resultado);
-			*/
-			
-			/*while(numeroDos == 0)
-			{
-				System.out.println("El segundo número debe ser distinto a 0. Ingrese el segundo número");
-				numeroDos = scanner.nextInt();
-			}*/
-			//resultado = calculadora.division(numeroUno, numeroDos);
-			
-			
+				System.out.println("El valor ingresado debe ser un numero");
+			}		
 	}
 }
